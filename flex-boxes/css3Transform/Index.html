@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>CSS3 2D Transform example for GoIt (on <kbd>:hover</kbd>)</h1>
+    <div class="wrapers">
+      <div class="one"><kbd>translateX(20px)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="two"><kbd>translateY(-20px)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="three"><kbd>translate(-20px, 20px)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="four"><kbd>scaleX(-1)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="five"><kbd>scaleY(1.2)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="six"><kbd>scale(1.2, 0.5)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="seven">
+        <!-- Тег <kbd> используется для обозначения текста, который набирается на клавиатуре или для названия клавиш.
+             Браузеры обычно помечают текст в контейнере <kbd> моноширинным шрифтом. -->
+        <kbd>rotate(720deg)</kbd>
+      </div>
+    </div>
+    <div class="wrapers">
+      <div class="eight"><kbd>skewX(20deg)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="nine"><kbd>skewY(-20deg)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="ten"><kbd>skew(-20deg, 20deg)</kbd></div>
+    </div>
+    <div class="wrapers">
+      <div class="eleven"><kbd>matrix(1.2,0,0.5,1.2,50,0)</kbd></div>
+    </div>
+    <hr> 
+
+    <div class="button-shadow-efect" >
+        <div class="btn-wrap-box-shadow">
+             <button class="btn-wrap-text">
+               Start
+            </button>
+            </div>
+        <p class="btn-wrap-text-shadow">Stop</p>
+    </div>
+   
+    <hr> 
+
+       <!-- figure основные семантические теги  ! -->
+    <article>smb... Tag "article"<article>
+        <hr/>    
+        <figure>
+            <img src="../dragon.png"   style="height: 10rem; width:25rem;"  alt="Animal">
+            <figcaption>Small dragon</figcaption>
+        </figure>
+   
+
+        <hr/>
+        <aside>
+            <h2>Lessons 2...</h2>
+            <p> more infom...</p>
+        </aside>
+        
+        <hr/>
+    <section>
+      <h2 id="user">
+        <h2>
+          <a onclick="countSection()" href=""
+            >Spring Comes (and Goes) in Sussex County</a
+          >
+        </h2>
+        <p>
+          Yesterday I joined the Brooklyn Bird Club for our annual trip to
+          Western New Jersey, specifically Hyper Humus, a relatively recently
+          discovered hot spot.
+        </p>
+      </h2>
+  
+
+      <article>
+        <h2><a href=""> <mark>But does</mark> it count for your life list?</a></h2>
+        <p>
+          Seems you can now go bird watching via the Internet. I haven't been
+          able to test it out yet (20 user limit apparently) but this is
+          certainly cool. Personally, I can't imagine it replacing actually
+          being out in the field by any small amount.
+        </p>
+      </article>
+
+      <hr/>
+
+      <nav>
+        <a href="">&laquo; Previous Entries</a>
+      </nav>
+      <time datetime="2020-01-24"> 25 Февраля 2020</time>
+    </section>
+   
+   
+   <script>
+      let samsing = document.getElementById("user");
+
+      function countSection() {
+        for (let i = 1; i < 3; i++) {
+          alert("you take a section" + i);
+        }
+      }
+    </script>
+  </body>
+</html>
